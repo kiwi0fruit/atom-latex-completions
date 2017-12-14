@@ -15,8 +15,8 @@ module.exports =
   texPattern: /\\(.*)$/
 
   load: (p) ->
-    @scopeSelector = atom.config.get("latex-completions.selector")
-    @disableForScopeSelector = atom.config.get("latex-completions.disableForSelector")
+    @scopeSelector = atom.config.get("sugartex-completions.selector")
+    @disableForScopeSelector = atom.config.get("sugartex-completions.disableForSelector")
     return if p == ''
     p ?= path.resolve(__dirname, '..', 'completions', 'completions.json')
     fs.readFile p, (error, content) =>

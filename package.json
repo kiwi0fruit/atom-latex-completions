@@ -1,10 +1,10 @@
 {
-  "name": "latex-completions",
-  "main": "./lib/latex-completions",
+  "name": "sugartex-completions",
+  "main": "./lib/sugartex-completions",
   "version": "0.3.3",
   "description": "Easy input for unicode characters",
   "keywords": [],
-  "repository": "https://github.com/JunoLab/atom-latex-completions",
+  "repository": "https://github.com/kiwi0fruit/atom-sugartex-completions",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

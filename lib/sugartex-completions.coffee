@@ -25,11 +25,11 @@ module.exports =
       order: 4
 
   activate: ->
-    atom.config.get("latex-completions.enableDefaultCompletions") && provider.load()
+    atom.config.get("sugartex-completions.enableDefaultCompletions") && provider.load()
 
     @subscriptions = new CompositeDisposable
 
-    @subscriptions.add atom.config.observe 'latex-completions.customAliases', (path) =>
+    @subscriptions.add atom.config.observe 'sugartex-completions.customAliases', (path) =>
       for path in path.split(',')
         provider.load(path)
 
