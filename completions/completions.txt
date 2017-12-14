@@ -1,0 +1,36 @@
+‹› = \<  \> = single left/right-pointing angle quotation mark
+˱˲ = \_<  \_> = modifier letter low left/right arrowhead
+ ⃗ = \^-> = combining right arrow above
+ ⃑ = \^--> = combining right harpoon above
+ˍ = \_ = modifier letter low macron
+˳ = \_os = modifier letter low ring
+⣤ = \_:: = braille pattern dots-3678
+⠛ = \^:: = braille pattern dots-1245
+⠘ = braille pattern dots-45 (right upper 2)
+⠃ = braille pattern dots-12 (left upper 2)
+⢈ = \:b = braille pattern dots-48
+⡁ = braille pattern dots-17
+⠆ = braille pattern dots-23
+⠰ = \:s = braille pattern dots-56
+ ⃔ = \^^ = combining anticlockwise arrow above
+ˎ = \_` = modifier letter low grave accent
+ˌ = \_'s = modifier letter low vertical line
+⋲ = -E = element of with long horizontal stroke
+˄ = \^bb = modifier letter up arrowhead
+ˆ = \^ss = modifier letter circumflex accent
+˽ = \__ = modifier letter shelf
+‖ = \|| = double vertical line
+│ = \| = box drawings light vertical
+ˊˋ = \`m (modif letter) \` (modif letter) = modifier letter acute/grave accent
+\]em/3[ = three-per-em space
+👻 = \ghost
+˚ = \^os = ring above
+ˈ = \'s = modifier letter vertical line
+¦ = \\ = \|/2 = broken bar
+┆ = \|/3 = box drawings light triple dash vertical
+˹˺ = \^rs = modifier letter begin/end high tone
+\__- = combining macron below
+\^ + symbol = modifier letter small / superscript
+\_ + symbol = subscript
+√ = \sqrt
+↕ = v|^ = up down arrow
