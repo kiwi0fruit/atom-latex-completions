@@ -8,7 +8,7 @@
   "][ hair": " ",
   "],[ thin": " ",
   "]_[ no-break": " ",
-  "]_s[ narrow no-break": " ",
+  "]_\\s[ narrow no-break": " ",
   "]en[": " ",
   "]em[": " ",
   "]em/3[ > common": " ",
