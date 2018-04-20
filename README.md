@@ -7,9 +7,10 @@ It also supports easy SugarTeX input with object transform oriented typing. Suga
 
 **Documentation**: in the [SugarTeX documentation](https://github.com/kiwi0fruit/sugartex/blob/master/sugartex.md) appropriate shortcuts for SugarTeX Completions for Atom are given. But SugarTeX Completions for Atom has even more shortcuts! They all are intuitive for remembering and typing: simply think of the way the symbol can be obtained from standard characters via transformations:
 
-* Transformations are invoked via typing `\` **after** object like `\->\rot` gives `↑` (first `\` starts SugarTeX Completions),
+* Transformations are invoked via typing `\` **after** object like `\->\rot` gives `↑` (rotated). First `\` starts SugarTeX Completions,
 * Making superscript and subscript are special transformations that are used like functions instead of methods: `\^1` to `¹`, `\_1` to `₁`. Many other objects moved up/down and resized like `\^o\degree` to `°`,
-* Combining superscript and subscripts symbols are typed with `^^`/`__` like `\^^'`/`\__'`.
+* Combining superscript and subscripts symbols are typed with `^^`/`__` like `\^^'`/`\__'` (accentuation).
+* Combining overlay symbols are typed with `@` like `\@/` or `\@-` (strikethrough).
 * See the list of the shortcuts in [this file](https://github.com/kiwi0fruit/sugartex-completions/blob/master/completions/completions.json).
 
 **Warning**: incompatible with [latex-completions](https://atom.io/packages/latex-completions) - uninstall it first if installed.
