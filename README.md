@@ -1,6 +1,6 @@
 # SugarTeX Completions for Atom
 
-Easy Unicode input for Atom.
+Easy Unicode input for Atom optimized for [SugarTeX](https://github.com/kiwi0fruit/sugartex).
 
 It's simple enough – SugarTeX Completions takes LaTeX character names such as
 `\alpha` and replaces them with unicode characters like `α`.
