@@ -18,10 +18,5 @@
   },
   "dependencies": {
     "fuzzaldrin-plus": "^0.6.0"
-  },
-  "apmInstallSource": {
-    "type": "git",
-    "source": "https://github.com/kiwi0fruit/sugartex-completions",
-    "sha": "961446800f182b7fc422776aa194772b43fddc3b"
   }
 }
