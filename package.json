@@ -1,7 +1,7 @@
 {
   "name": "sugartex-completions",
   "main": "./lib/sugartex-completions",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Easy input for unicode characters",
   "keywords": [],
   "repository": "https://github.com/kiwi0fruit/sugartex-completions",
@@ -17,6 +17,6 @@
     }
   },
   "dependencies": {
-    "string-score": "*"
+    "fuzzaldrin-plus": "^0.6.0"
   }
 }
