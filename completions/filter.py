@@ -10,7 +10,7 @@ others = dict(ltphi=r'phi\\lt', pgamma=r'gamma\\phon', pbgam=r'gamma\\phon2', lt
               bigamma=r'gamma\\bi', big=r'g\\bi', bfiota=r'iota\\bf')
 
 src = re.sub(f'"({"|".join(map(re.escape, others.keys()))})": "',
-             lambda m: f'"{others.get(m.group(0))}": "',
+             lambda m: f'"{others.get(m.group(1))}": "',
              src)
 
 src = re.sub(
