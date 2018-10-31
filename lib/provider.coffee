@@ -12,13 +12,13 @@ module.exports =
 
   completions: {}
 
-  texPattern: /\\([^\S]*)$/
+  texPattern: /\\(.*)$/
 
-   activate: ->
+  activate: ->
     @disposable = atom.config.observe 'latex-completions.boostGreekCharacters', (boost) =>
       @boostGreek = boost
 
-   deactivate: ->
+  deactivate: ->
     @disposable.dispose()
 
   load: (p) ->
@@ -37,15 +37,15 @@ module.exports =
       s = s * 1.4
     s
 
-   compare: (a, b) ->
+  compare: (a, b) ->
     diff = b.score - a.score
 
-     if diff == 0
+    if diff == 0
       a.leftLabel.localeCompare(b.leftLabel)
     else
       diff
 
-   getSuggestions: ({bufferPosition, editor, prefix}) ->
+  getSuggestions: ({bufferPosition, editor, prefix}) ->
     line = editor.getTextInRange([[bufferPosition.row, 0], bufferPosition])
     prefix = line.match(@texPattern)?[1]
     return new Promise (resolve) =>
