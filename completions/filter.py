@@ -14,7 +14,7 @@ src = re.sub(f'"({"|".join(map(re.escape, others.keys()))})": "',
              src)
 
 src = re.sub(
-    r'"(b?frak|b?i?sans(?:var)?|[bm]?scr|it(?:var)?|b[bf]i?|bi(?!g)|tt|rtl|ltl)(\w+)": "',
+    r'"(b?frak|b?i?sans(?:var)?|[bm]?scr|it(?:var)?|bbi?|bf(?:var)?|bi(?!g)|tt|rtl|ltl)(\w+)": "',
     lambda m: rf'"{numbers.get(m.group(2), m.group(2))}\\{m.group(1)}": "',
     src)
 
