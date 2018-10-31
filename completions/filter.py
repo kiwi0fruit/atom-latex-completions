@@ -9,8 +9,8 @@ others = dict(ltphi=r'phi\\lt', pgamma=r'gamma\\phon', pbgam=r'gamma\\phon2', lt
               imath=r'i\\math', jmath=r'j\\math', itimath=r'i\\itmath', itjmath=r'j\\itmath',
               bigamma=r'gamma\\bi', big=r'g\\bi', bfiota=r'iota\\bf')
 
-src = re.sub(f'({"|".join(map(re.escape, others.keys()))})',
-             lambda m: others.get(m.group(0)),
+src = re.sub(f'"({"|".join(map(re.escape, others.keys()))})": "',
+             lambda m: f'"{others.get(m.group(0))}": "',
              src)
 
 src = re.sub(
