@@ -9,21 +9,24 @@ others = dict(ltphi=r'phi\\phon', pgamma=r'gamma\\phon', pbgam=r'gamma\\phon\\',
               imath=r'i\\math', jmath=r'j\\math', itimath=r'i\\math\\it', itjmath=r'j\\math\\it',
               bigamma=r'gamma\\bold\\it', big=r'g\\bold\\it', bfiota=r'iota\\bold', upvarbeta=r'beta\\var',
               sansLturned=r'L\\rot\\sans', sansLmirrored=r'L\\mirr\\sans', clomeg=r'omega\\closed',
-              rl=r'r\\phon', trnrl=r'r\\phon\\rot')
+              rl=r'r\\phon\\', trnrl=r'r\\phon\\rot', rttrnr=r'r\\phon\\rot\\', fhr=r'r\\phon', 
+              trnmlr=r'm\\phon\\rot', pscrv=r'v\\phon', turnk=r'k\\rot', bbrktbrk=r'][\\rot',
+              nrleg=r'n\\rightleg', trnsa=r'a\\rot\\', pupsil=r'upsilon\\phon', hvlig=r'h\\hwair')
+
 others['del'] = r'Delta\\mirr'
 
 styles = dict(bfrak=r'frak\\bold', bsans=r'sans\\bold', isans=r'sans\\it', bisans=r'sans\\bold\\it',
               sansvar=r'var\\sans', bsansvar=r'var\\sans\\bold', isansvar=r'var\\sans\\it',
               bisansvar=r'var\\sans\\bold\\it', bscr=r'scr\\bold', itvar=r'var\\it', bb=r'bbold',
               bbi=r'bbold\\it', bf=r'bold', bfvar=r'var\\bold', bivar=r'var\\bold\\it', bi=r'bold\\it',
-              tt=r'mono', rtl=r'phon\\right', ltl=r'phon\\left')
+              tt=r'mono', rtl=r'phon\\right', ltl=r'phon\\left', trn='rot')
 
 src = re.sub(f'"({"|".join(map(re.escape, others.keys()))})": "',
              lambda m: f'"{others.get(m.group(1))}": "',
              src)
 
 src = re.sub(
-    r'"(b?frak|b?i?sans(?:var)?|b?scr|it(?:var)?|bbi?|bf(?:var)?|bivar|bi(?!g)|tt|rtl|ltl|var)(\w+)": "',
+    r'"(b?frak|b?i?sans(?:var)?|b?scr|it(?:var)?|bbi?|bf(?:var)?|bivar|bi(?!g)|tt|rtl|ltl|var|trn)(\w+)": "',
     lambda m: rf'"{numbers.get(m.group(2), m.group(2))}\\{styles.get(m.group(1), m.group(1))}": "',
     src)
 
