@@ -8,7 +8,10 @@ numbers = dict(zero=0, one=1, two=2, three=3, four=4, five=5, six=6, seven=7, ei
 others = dict(ltphi=r'phi\\phon', pgamma=r'gamma\\phon', pbgam=r'gamma\\phon\\', ltlmr=r'r\\phon\\left',
               imath=r'i\\math', jmath=r'j\\math', itimath=r'i\\math\\it', itjmath=r'j\\math\\it',
               bigamma=r'gamma\\bold\\it', big=r'g\\bold\\it', bfiota=r'iota\\bold', upvarbeta=r'beta\\var',
-              sansLturned=r'L\\rot\\sans', sansLmirrored=r'L\\mirr\\sans')
+              sansLturned=r'L\\rot\\sans', sansLmirrored=r'L\\mirr\\sans', clomeg=r'omega\\closed',
+              rl=r'r\\phon', trnrl=r'r\\phon\\rot')
+others['del'] = r'Delta\\mirr'
+
 styles = dict(bfrak=r'frak\\bold', bsans=r'sans\\bold', isans=r'sans\\it', bisans=r'sans\\bold\\it',
               sansvar=r'var\\sans', bsansvar=r'var\\sans\\bold', isansvar=r'var\\sans\\it',
               bisansvar=r'var\\sans\\bold\\it', bscr=r'scr\\bold', itvar=r'var\\it', bb=r'bbold',
