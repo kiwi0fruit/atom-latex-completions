@@ -10,8 +10,10 @@ others = dict(ltphi=r'phi\\phon', pgamma=r'gamma\\phon', pbgam=r'gamma\\phon\\',
               bigamma=r'gamma\\bold\\it', big=r'g\\bold\\it', bfiota=r'iota\\bold', upvarbeta=r'beta\\var',
               sansLturned=r'L\\rot\\sans', sansLmirrored=r'L\\mirr\\sans', clomeg=r'omega\\closed',
               rl=r'r\\phon\\', trnrl=r'r\\phon\\rot', rttrnr=r'r\\phon\\rot\\', fhr=r'r\\phon', 
-              trnmlr=r'm\\phon\\rot', pscrv=r'v\\phon', turnk=r'k\\rot', bbrktbrk=r'][\\rot',
-              nrleg=r'n\\rightleg', trnsa=r'a\\rot\\', pupsil=r'upsilon\\phon', hvlig=r'h\\hwair')
+              trnmlr=r'm\\phon\\rot', pscrv=r'v\\phon', bbrktbrk=r'][\\rot',
+              nrleg=r'n\\rightleg', trnsa=r'a\\rot\\', pupsil=r'upsilon\\phon', hvlig=r'h\\hwair',
+              turnk=r'k\\rot', turnediota=r'iota\\rot', turnangle=r'angle\\rot', turnednot=r'not\\rot',
+              invnot=r'not\\mirr', invv=r'v\\mirr', invw=r'w\\mirr')
 
 others['del'] = r'Delta\\mirr'
 
