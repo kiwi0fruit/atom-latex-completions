@@ -21,7 +21,7 @@ src = re.sub(f'"({"|".join(map(re.escape, others.keys()))})": "',
 
 src = re.sub(
     r'"(b?frak|b?i?sans(?:var)?|b?scr|it(?:var)?|bbi?|bf(?:var)?|bivar|bi(?!g)|tt|rtl|ltl|var)(\w+)": "',
-    lambda m: rf'"{numbers.get(m.group(2), m.group(2))}\\{m.group(1)}": "',
+    lambda m: rf'"{numbers.get(m.group(2), m.group(2))}\\{styles.get(m.group(1), m.group(1))}": "',
     src)
 
 with open(p.join('.', 'completions.json'), 'w', encoding='utf-8') as f:
