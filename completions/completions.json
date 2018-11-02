@@ -6,9 +6,9 @@
   "^^": "⎴",
   ",": " ",
 
-  "],[  (thin)": " ",
-  "],[\\small  (hair)": " ",
-  "]nb[  (no-break)": " ",
+  "],[  (thin space)": " ",
+  "],[\\small  (hair space)": " ",
+  "]nb[  (no-break space)": " ",
   "]nb[\\small": " ",
   "]en[": " ",
   "]em[": " ",
