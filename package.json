@@ -1,9 +1,13 @@
 {
   "name": "sugartex-completions",
   "main": "./lib/sugartex-completions",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Easy input for unicode characters",
-  "keywords": ["unicode", "latex", "sugartex"],
+  "keywords": [
+    "unicode",
+    "latex",
+    "sugartex"
+  ],
   "repository": "https://github.com/kiwi0fruit/sugartex-completions",
   "license": "MIT",
   "engines": {
