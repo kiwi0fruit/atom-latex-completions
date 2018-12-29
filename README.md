@@ -12,7 +12,7 @@ It also supports easy SugarTeX input with object transform oriented typing. Suga
 * Transformations are invoked via typing `\` **after** object like `\->\rot` gives `↑` (rotated). First `\` starts SugarTeX Completions,
 * Making superscript and subscript are special transformations that are used like functions instead of methods: `\^1` to `¹`, `\_1` to `₁`. Many other objects moved up/down and resized like `\^o\degree` to `°`,
 * Combining superscript and subscripts symbols are typed with `^^`/`__` like `\^^'`/`\__'` (accentuation).
-* Combining overlay symbols are typed with `@` like `\@/` or `\@-` (strikethrough).
+* Combining overlay symbols are typed with `@@` like `\@@/` or `\@@-` (strikethrough).
 * See the list of the shortcuts in [this file](https://github.com/kiwi0fruit/sugartex-completions/blob/master/completions/completions.json).
 
 **Warning**: incompatible with [latex-completions](https://atom.io/packages/latex-completions) - uninstall it first if installed.
